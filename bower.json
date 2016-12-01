@@ -1,0 +1,24 @@
+{
+  "name": "ppts",
+  "authors": [
+    "sunnychuai <jingjing.chuai@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sunnychuai/richppt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mermaid": "^6.0.0"
+  }
+}
