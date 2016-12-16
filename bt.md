@@ -11,7 +11,7 @@ theme: moon
 - 预处理器: Less 和 Sass
 - 响应式: Yes
 - 模块化: Yes
-- 字体图标：200个来自 Glyphicon Halflings 的字体图标
+- 字体图标：200个来自 Glyphicon Halflings 的字体图标、Font Awesome
 - 浏览器支持：Firefox, Chrome, Safari, IE8+ (需要 Respond.js for IE8)
 
 [slide data-transition="vertical3d"]
@@ -97,7 +97,9 @@ theme: moon
 [slide]
 # 框架优缺点
 - 缺点
-
+    - 对低版本浏览器支持不是很好，因为它使用了一些CSS3样式和H5的元素，因此如果你的网站要兼容IE678，这个明显是不使用的
+    - 如果你的网站有大量多样化的设计，那么当你如果还想使用bootstrap就需要将框架作为底层修改：需要复写大量样式，CSS层次编的混乱，难以维护。
+    - 对简单页面来说有些庞大
 
 [slide]
 # 技术壁垒
@@ -193,4 +195,10 @@ Bootstrap 3 版本并不向后兼容 v2.x 版本。
 - 添加新的组件
     在Bootstrap3中新增了List Group组件以及Panels组件，这两个组件的加入大大丰富了列表型布局的多样性。
 - 对于旧组件的完善
+
+[slide]
+# 从 v3.x 版本升级到 v4.x 版本
+
+
+
 
